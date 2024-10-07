@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructuración de una Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            background-color: #f4f4f4;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #0056b3;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #0056b3;
+            color: white;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        td {
+            background-color: #e0f0ff;
+        }
+        tbody tr:hover {
+            background-color: #b3d1ff;
+        }
+        table {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tema 1: Completa la siguiente tabla</h1>
+    </header>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concepto</th>
+                    <th>Descripción</th>
+                    <th>Concepto</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tabla en HTML</td>
+                    <td>Es una estructura que permite organizar información en filas y columnas dentro de una página web.</td>
+                    <td>Formulario en HTML</td>
+                    <td>Es un conjunto de campos que permiten la entrada de datos por parte del usuario.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta &lt;table&gt;</td>
+                    <td>Define el inicio de una tabla en HTML.</td>
+                    <td>Etiqueta &lt;form&gt;</td>
+                    <td>Define un formulario para recolectar la información del usuario y enviarla a un servidor.</td>
+                </tr>
+                <tr>
+                    <td>Atributos de &lt;table&gt;</td>
+                    <td>Atributos como border, cellpadding, cellspacing, entre otros, que modifican la apariencia de la tabla.</td>
+                    <td>Etiqueta &lt;input&gt;</td>
+                    <td>Define un campo para la entrada de datos, como texto, contraseña, checkbox, etc.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta &lt;tr&gt;</td>
+                    <td>Define una fila dentro de una tabla.</td>
+                    <td>Etiqueta &lt;label&gt;</td>
+                    <td>Asocia una etiqueta de texto a un control de formulario, facilitando la accesibilidad.</td>
+                </tr>
+                <tr>
+                    <td>Atributos de &lt;tr&gt;</td>
+                    <td>Atributos como align o valign que alinean el contenido de la fila.</td>
+                    <td>Etiqueta &lt;select&gt;</td>
+                    <td>Define una lista desplegable de opciones dentro de un formulario.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta &lt;td&gt; y &lt;th&gt;</td>
+                    <td>&lt;td&gt; define una celda en una tabla, mientras que &lt;th&gt; define una celda de encabezado.</td>
+                    <td>Etiqueta &lt;textarea&gt;</td>
+                    <td>Define un área de texto para la entrada de múltiples líneas en un formulario.</td>
+                </tr>
+                <tr>
+                    <td>Atributos de &lt;td&gt; y &lt;th&gt;</td>
+                    <td>Atributos como colspan, rowspan, align, entre otros, para personalizar celdas y encabezados.</td>
+                    <td>Etiqueta &lt;fieldset&gt; y &lt;legend&gt;</td>
+                    <td>&lt;fieldset&gt; agrupa controles de formulario y &lt;legend&gt; proporciona una descripción para el grupo.</td>
+                </tr>
+                <tr>
+                    <td>Tablas avanzadas</td>
+                    <td>Incluyen elementos como el uso de colspan, rowspan, thead, tbody, y tfoot para mayor control.</td>
+                    <td>Etiqueta &lt;meter&gt;</td>
+                    <td>Representa un valor escalar dentro de un rango conocido, como una barra de progreso.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta &lt;thead&gt;</td>
+                    <td>Define el encabezado de una tabla, que generalmente contiene etiquetas &lt;th&gt;.</td>
+                    <td>Etiqueta &lt;progress&gt;</td>
+                    <td>Muestra el progreso de una tarea en curso, como la descarga de un archivo.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta &lt;tfoot&gt;</td>
+                    <td>Define el pie de tabla, que generalmente contiene datos finales o de resumen.</td>
+                    <td>Etiqueta &lt;datalist&gt;</td>
+                    <td>Proporciona una lista de opciones predefinidas para un campo &lt;input&gt;.</td>
+                </tr>
+                <tr>
+                    <td>Etiqueta &lt;tbody&gt;</td>
+                    <td>Agrupa el contenido principal de la tabla.</td>
+                    <td>Etiqueta &lt;summary&gt;</td>
+                    <td>Proporciona un resumen visible cuando se utiliza dentro de un elemento &lt;details&gt;.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Tema 2: Elementos de la estructuración de una página web</h2>
+        <ul>
+            <li><strong>Contenedor (wrapper):</strong> Agrupa y estructura visualmente el contenido de una página web.</li>
+            <li><strong>Cabecera (header):</strong> Sección superior que incluye elementos como el logotipo y el menú.</li>
+            <li><strong>Contenido (content):</strong> Parte central que muestra la información principal.</li>
+            <li><strong>Menú (menu):</strong> Lista de enlaces que permiten navegar entre las secciones de la página.</li>
+            <li><strong>Pie (footer):</strong> Parte inferior que contiene información secundaria o legal.</li>
+            <li><strong>Lateral (sidebar):</strong> Barra lateral que muestra información adicional.</li>
+            <li><strong>Etiqueta &lt;div&gt;:</strong> Contenedor genérico utilizado para estructurar contenido y aplicar estilos.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Tema 3: Estructuración semántica de una página web</h2>
+        <ul>
+            <li><strong>&lt;header&gt;:</strong> Representa la cabecera de una sección o documento.</li>
+            <li><strong>&lt;nav&gt;:</strong> Define una sección de navegación con enlaces importantes.</li>
+            <li><strong>&lt;section&gt;:</strong> Agrupa contenido relacionado en una sección temática.</li>
+            <li><strong>&lt;article&gt;:</strong> Contenido independiente que puede distribuirse de manera autónoma.</li>
+            <li><strong>&lt;aside&gt;:</strong> Contenido relacionado pero independiente del contenido principal.</li>
+            <li><strong>&lt;footer&gt;:</strong> Define el pie de una sección o documento, generalmente con información legal o enlaces secundarios.</li>
+            <li><strong>&lt;main&gt;:</strong> Representa el contenido principal de la página.</li>
+            <li><strong>&lt;h1&gt; - &lt;h6&gt;:</strong> Títulos y subtítulos jerárquicos para estructurar el contenido.</li>
+            <li><strong>&lt;figure&gt; y &lt;figcaption&gt;:</strong> Agrupa y describe contenido visual como imágenes o gráficos.</li>
+            <li><strong>&lt;mark&gt;:</strong> Resalta texto relevante.</li>
+            <li><strong>&lt;time&gt;:</strong> Representa una fecha u hora específica.</li>
+            <li><strong>&lt;address&gt;:</strong> Proporciona información de contacto o dirección.</li>
+        </ul>
+    </section>
+</body>
+</html>
